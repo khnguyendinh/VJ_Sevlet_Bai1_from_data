@@ -10,7 +10,8 @@ import java.io.IOException;
 public class ShowError extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.sendError(407, "Need authentication!!!" );
+//        resp.sendError(404, "Need authentication!!!" );
+        resp.sendError(404);
     }
 
     @Override
