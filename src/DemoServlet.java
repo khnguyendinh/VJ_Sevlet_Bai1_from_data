@@ -14,8 +14,8 @@ public class DemoServlet extends HttpServlet {
 
     @Override
     public void init(ServletConfig config) throws ServletException {
-        message = "hello world ";
         super.init(config);
+        message = "hello world ";
     }
 
     @Override
