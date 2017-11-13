@@ -42,4 +42,11 @@
         <exception-type>java.lang.Throwable</exception-type >
         <location>/ErrorHandler</location>
     </error-page>
+    <context-param>
+        <description>Location to store uploaded file</description>
+        <param-name>file-upload</param-name>
+        <param-value>
+            D:\Setup\TomCat\apache-tomcat-9.0.0.M22\webapps\data\
+        </param-value>
+    </context-param>
 </web-app>
